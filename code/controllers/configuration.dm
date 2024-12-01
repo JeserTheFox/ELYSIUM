@@ -208,6 +208,8 @@
 
 	var/static/forumurl
 
+	var/static/discordurl
+
 	var/static/githuburl
 
 	var/static/issuereporturl
@@ -576,6 +578,8 @@
 				wikiurl = value
 			if ("forumurl")
 				forumurl = value
+			if ("discordurl")
+				discordurl = value
 			if ("githuburl")
 				githuburl = value
 			if ("issuereporturl")

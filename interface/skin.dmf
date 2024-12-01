@@ -1101,7 +1101,7 @@ window "rpane"
 		is-vert = false
 	elem "github"
 		type = BUTTON
-		pos = 476,0
+		pos = 536,0
 		size = 60x15
 		anchor1 = none
 		anchor2 = none
@@ -1110,7 +1110,7 @@ window "rpane"
 		command = "GitHub"
 	elem "BugReport"
 		type = BUTTON
-		pos = 536,0
+		pos = 596,0
 		size = 60x15
 		anchor1 = none
 		anchor2 = none
@@ -1129,7 +1129,7 @@ window "rpane"
 		group = "rpanemode"
 	elem "changelog"
 		type = BUTTON
-		pos = 416,0
+		pos = 476,0
 		size = 60x15
 		anchor1 = none
 		anchor2 = none
@@ -1156,6 +1156,18 @@ window "rpane"
 		saved-params = "is-checked"
 		text = "Forum"
 		command = "forum"
+		group = "rpanemode"
+	elem "discordb"
+		type = BUTTON
+		pos = 388,0
+		size = 60x15
+		anchor1 = none
+		anchor2 = none
+		background-color = #5865F2
+		text-color = #ffffff
+		saved-params = "is-checked"
+		text = "Discord"
+		command = "discord"
 		group = "rpanemode"
 	elem "wikib"
 		type = BUTTON
